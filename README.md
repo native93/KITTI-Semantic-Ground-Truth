@@ -5,7 +5,7 @@ Robotics Research Center, IIIT Hyderabad, India. - http://robotics.iiit.ac.in/
 
 The repository contains semantic Ground Truth annotations for 200 images from KITTI Tracking dataset[Geigar].
 
-The zip file contains two directories.
+The zip file contains two directories.<br>
 annotated-dataset <br/>
 |--RGB  - Contains RGB images from KITTI Tracking dataset (Geigar) <br/>
 |--GT - Contains pixel-wise Ground Truth annotations for 11 semantic classes. <br/>
