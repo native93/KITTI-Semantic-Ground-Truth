@@ -6,25 +6,101 @@ Robotics Research Center, IIIT Hyderabad, India. - http://robotics.iiit.ac.in/
 The repository contains semantic Ground Truth annotations for 200 images from KITTI Tracking dataset[Geigar].
 
 The zip file contains two directories.
-annotated-dataset
-|--RGB  - Contains RGB images from KITTI Tracking dataset (Geigar)
-|--GT - Contains pixel-wise Ground Truth annotations for 11 semantic classes.
+annotated-dataset <br/>
+|--RGB  - Contains RGB images from KITTI Tracking dataset (Geigar) <br/>
+|--GT - Contains pixel-wise Ground Truth annotations for 11 semantic classes. <br/>
 
 The Ground Truth label spectrum is given below:
-
-        **Class**       **Colour**    **R    G    B**
- 
-         Building         Red          128  0    0
-         Vegetation       Yellow       128  128  0 
-         Sky              Grey         128  128  128
-         Car              Purple       64   0    128
-         Sign             Salmon       192  128  128 
-         Road             Pink         128  64   128
-         Pedestrian       Red          64   64   0
-         Fence            Grey-Purple  64   64   128 
-         Pole             Light-Yellow 192  192  128
-         Sidewalk         Blue         0    0    192
-         Cyclist          Light-Blue   0    128  192
+<table>
+       <thead>
+              <tr>
+              <th>Class</th>
+              <th>Colour</th>
+              <th>R</th>
+              <th>G</th>
+              <th>B</th>
+              </tr>
+       </thead>
+       <tbody>
+              <tr>
+              <td>Building</td>
+              <td>Red</td>
+              <td>128</td>
+              <td>0</td>
+              <td>0</td>
+              </tr>
+              <tr>
+              <td>Vegetation</td>
+              <td>Yellow</td>
+              <td>128</td>
+              <td>128</td>
+              <td>0</td>
+              </tr>
+              <tr>
+              <td>Sky</td>
+              <td>Grey</td>
+              <td>128</td>
+              <td>128</td>
+              <td>128</td>
+              </tr>
+              <tr>
+              <td>Car</td>
+              <td>Purple</td>
+              <td>64</td>
+              <td>0</td>
+              <td>128</td>
+              </tr>
+              <tr>
+              <td>Sign</td>
+              <td>Salmon</td>
+              <td>192</td>
+              <td>128</td>
+              <td>128</td>
+              </tr>
+              <tr>
+              <td>Road</td>
+              <td>Pink</td>
+              <td>128</td>
+              <td>64</td>
+              <td>128</td>
+              </tr>
+              <tr>
+              <td>Pedestrian</td>
+              <td>Yellow-Brown</td>
+              <td>64</td>
+              <td>64</td>
+              <td>0</td>
+              </tr>
+              <tr>
+              <td>Fence</td>
+              <td>Grey-Purple</td>
+              <td>64</td>
+              <td>64</td>
+              <td>128</td>
+              </tr>
+              <tr>
+              <td>Pole</td>
+              <td>Light-Yellow</td>
+              <td>192</td>
+              <td>192</td>
+              <td>128</td>
+              </tr>
+              <tr>
+              <td>Sidewalk</td>
+              <td>Blue</td>
+              <td>0</td>
+              <td>0</td>
+              <td>192</td>
+              </tr>
+              <tr>
+              <td>Cyclist</td>
+              <td>Light-Blue</td>
+              <td>0</td>
+              <td>128</td>
+              <td>192</td>
+              </tr>
+        </tbody>
+       </table>
          
          
  References:
